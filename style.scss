@@ -28,8 +28,8 @@ body {
     padding: 0;
 }
 #banner li{
-    display: inline;
     float: right;
+    display: inline;
     margin: 15px;
     font-family: serif;
 }
@@ -54,18 +54,19 @@ body {
     float: right;
     position: relative;
     text-align: left;
-    right: 1em;
-    top: 250px;
+    right: 65px;
+    top: 298px;
     font-family: serif;
     font-size: 82px;
     letter-spacing: 2px;
     color: #DF6240;
+    font-weight: bold;
 }
 #intro h2{
     float: right;
     position: relative;
-    top: 5em;
-    right: 21em;
+    top: 3em;
+    right: 337px;
     text-transform: uppercase;
     font-weight: bold;
     
@@ -84,6 +85,7 @@ body {
     background-color: #F5F5F5;
     margin-top: 15em;
     height: 550px;
+    width: 1280px;
 }
 
 #hello {
@@ -130,33 +132,73 @@ body {
     right: 4em;
 }
 .row{
-    margin: 0 auto;
+    margin-top: 70px;
 }
+
+.link {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    float: right;
+}
+.link .dark {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.link:hover .dark {
+    display: inline;
+}
+
 #boxp{
-    width:425px;
+    width:485px;
     height:285px;
     position: relative;
-    left: 10em;
+    left: 9em;
     
+}
+#boxp img{
+    height: 40px;
+    width: 40px;
+    float: right;
 }
 #boxp h2{
     border-bottom: solid;
     border-color: black;
     padding-bottom: 10px;
+    font-weight: bold;
+}
+#boxp p{
+    font-size: 20px;
 
 }
 #boxl{
-    width:425px;
+    width:485px;
     height:285px;
     display: block;
     float: right;
     position: relative;
     bottom: 0px;
+    right: 160px;
+}
+#boxl img{
+    height: 40px;
+    width: 40px;
+    float: right;
+
 }
 #boxl h2{
     border-bottom: solid;
     border-color: black;
     padding-bottom: 10px;
+    font-weight: bold;
+}
+
+#boxl p{
+    font-size: 20px;
+
 }
 th, td {
     border-width: 0;
@@ -165,26 +207,25 @@ th, td {
 }
 #contact{
     width: 100%;
-    height: 850px;
-
-
+    height: 750px;
 }
 
 #contact h1 {
     font-size: 84px;
     font-family: serif;
     position: relative;
-    left: 1em;
-    top: 0;
+    left: 120px;
+    top: 50px;
     bottom: 20px;
+    font-weight: bold;
 }
 #contact h4 {
     float: right;
     vertical-align: top;
     text-align: right;
     position: relative;
-    right: 17em;
-    bottom: 3em;
+    right: 15em;
+    bottom: 50px;
     color: #b1b1b0;
     line-height: 2em;
     font-weight: normal;
@@ -192,9 +233,10 @@ th, td {
 }
 .form{
     position: relative;
-    top: 5em;
-    right: 9em;
-    margin: 5em;
+    top: 0em;
+    right: 8em;
+    height: 400px;
+    margin: 0 auto;
 }
 .name{
     width: 700px;
@@ -240,21 +282,23 @@ footer{
     margin:auto;
     
 }
-footer p{
+footer{
     text-align: center;
+    display: inline-block;
+    margin: auto;
+    position: relative;
+    left: 10em;
+    font-size: 18px;
+}
+
+footer img{
+    height: 80px;
+    width: 80px;
+    padding: 10px
 }
 .foot{
 
     text-align: center;
-}
-.dribble{
-    height: 50px;
-    width: 50px;
-}
-.insta{
-    height: 50px;
-    width: 50px;
- 
 }
 .thanks{
     text-align: center;
@@ -263,4 +307,5 @@ footer p{
     font-size: 18px;
     position: relative;
     bottom: 0;
+    margin: auto;
 }
